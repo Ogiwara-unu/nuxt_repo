@@ -48,6 +48,3 @@ Este repo ya incluye `netlify.toml`:
 
 Conecta el repo en Netlify (Import from Git) y el build se configura solo.
 
-## Enlace publicado
-
-> Randall: agrega aquí el enlace una vez desplegado en Netlify.
