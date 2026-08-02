@@ -1,7 +1,5 @@
 # Portafolio — Randall Álvarez Chévez
 
-Sitio web personal estático construido con **Nuxt 4**, con temática visual japonesa (papel envejecido, sellos hanko, kanji, tipografía Shippori Mincho).
-
 ## Páginas
 
 - `/` — Inicio
@@ -46,5 +44,6 @@ Este repo ya incluye `netlify.toml`:
   publish = ".output/public"
 ```
 
-Conecta el repo en Netlify (Import from Git) y el build se configura solo.
+Enlace:
+https://randall-portfolio-foid.netlify.app/
 
