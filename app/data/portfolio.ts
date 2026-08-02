@@ -133,12 +133,12 @@ export const experiences = [
     ],
   },
   {
-    title: "Ingeniero en Sistemas",
+    title: "Desarrollador Oracle APEX",
     job: "ContiCR",
     date: "Actualidad",
     contents: [
-      "Continúa el desarrollo y mantenimiento de automatizaciones e integraciones construidas durante la pasantía.",
-      "Trabajo remoto/local desde Liberia, Guanacaste, dando soporte a procesos internos de la compañía.",
+      "Desarrollo de sistemas empresariales diversos usando Oracle APEX, incluyendo sistemas de planillas y gestión empresarial.",
+      "Trabajo desde Liberia, Guanacaste, dando soporte y mantenimiento a procesos internos de la compañía.",
     ],
   },
 ];

@@ -7,14 +7,13 @@ export const posts = [
     excerpt:
       'Cómo diseñamos un flujo de n8n que valida datos y los inserta en una base de datos Oracle, y qué aprendí sobre manejar errores en automatizaciones de producción.',
     tags: ['n8n', 'Oracle APEX', 'Automatización'],
-    body: `[Randall: completa aquí el contenido técnico del post.]
+    body: `Documentación técnica de un flujo de trabajo en n8n que impulsa un asistente virtual encargado de la creación de facturas y la validación de datos.
 
-Ideas para desarrollar:
-- Contexto del proyecto en ContiCR: qué problema resolvía el asistente virtual.
-- Cómo estructuraste el flujo en n8n (nodos clave, validaciones).
-- Integración con Redis, Supabase, Postgres, Twilio y Gemini AI: qué rol cumplía cada uno.
-- Retos al insertar datos en Oracle vía APEX y cómo los resolviste.
-- Qué harías diferente hoy.`,
+Se documentó la lógica completa de un sistema de automatización construido con n8n.
+
+Se explicó la validación de datos, el formateo y el envío de información a la base de datos en Oracle APEX.
+
+Se utilizaron Docusaurus, Markdown y JavaScript para lograr una documentación estructurada y clara.`,
   },
   {
     slug: 'spa-offline-react',
@@ -24,14 +23,15 @@ Ideas para desarrollar:
     excerpt:
       'Notas sobre cómo React + Vite, IndexedDB y un Service Worker permiten que una app siga funcionando sin conexión a internet.',
     tags: ['React', 'Vite', 'IndexedDB'],
-    body: `[Randall: completa aquí el contenido técnico del post.]
+    body: `Una Aplicación de Página Única (SPA) construida con React y Express que consume datos de la PokeAPI y muestra información detallada de Pokémon.
 
-Ideas para desarrollar:
-- Por qué elegiste React + Vite para Pokelab.
-- Cómo funciona la estrategia de cacheo con Service Worker.
-- Qué datos guardas en IndexedDB y por qué.
-- Cómo estructuraste el backend en Node/Express que consume PokeAPI.
-- Uso de PM2 para mantener el proceso vivo en producción.`,
+Se desarrolló una SPA rápida utilizando React + Vite, incorporando IndexedDB y un Service Worker para capacidades offline.
+
+Se implementó un backend ligero usando Node.js y Express para manejar las solicitudes a la API.
+
+Se utilizó PM2 para el despliegue y la gestión de procesos.
+
+Se integró Axios tanto en el frontend como en el backend para una obtención de datos fluida.`,
   },
   {
     slug: 'graphql-vs-rest',
@@ -41,12 +41,14 @@ Ideas para desarrollar:
     excerpt:
       'Comparación práctica entre GraphQL y REST a partir de la experiencia real de construir una API musical con autenticación JWT.',
     tags: ['GraphQL', 'REST', 'JWT'],
-    body: `[Randall: completa aquí el contenido técnico del post.]
+    body: `Una API de música basada en GraphQL que gestiona canciones, listas de reproducción, artistas y álbumes con autenticación basada en tokens.
 
-Ideas para desarrollar:
-- Por qué GraphQL encajaba mejor que REST para el caso de Okarys API.
-- Cómo modelaste queries y mutations para canciones, playlists, artistas y álbumes.
-- Cómo implementaste autenticación con JWT en el resolver.
-- Ventajas y desventajas que notaste en la práctica (over-fetching, curva de aprendizaje, etc).`,
+Se construyó una API flexible utilizando GraphQL con consultas (queries) y mutaciones.
+
+Se implementó la autenticación mediante JWT.
+
+Se estructuró el backend con Express para un desarrollo moderno de APIs.
+
+Se utilizó SQLite como solución de persistencia ligera y eficiente.`,
   },
 ]
